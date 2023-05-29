@@ -1,8 +1,9 @@
+import { Pressable } from "react-native";
 import { TextInput } from "react-native";
 import { Text } from "react-native";
 import { ImageBackground } from "react-native";
 import React from "react";
-import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
+import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
 const Untitled2 = () => {
   return <SafeAreaView style={styles.safeArea}>
@@ -11,7 +12,7 @@ const Untitled2 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><ImageBackground style={styles.gxWwKAEU} source={require("./contact us .png")} resizeMode="cover"><Text style={styles.WvVWspeQ}>{"Contact Us"}</Text><TextInput style={styles.QEKGVwHG}></TextInput><Text style={styles.LYWXQaos}>{"Text"}</Text><TextInput style={styles.hYTQihax}></TextInput><Text style={styles.rtcNuWmd}>{"Phone number"}</Text><TextInput style={styles.bEMMamWm}></TextInput><Text style={styles.acySsifz}>{"Email"}</Text></ImageBackground></ScrollView>
+    }}><ImageBackground style={styles.gxWwKAEU} source={require("./contact us .png")} resizeMode="cover"><Text style={styles.WvVWspeQ}>{"Contact Us"}</Text><TextInput style={styles.QEKGVwHG}></TextInput><Text style={styles.LYWXQaos}>{"Text"}</Text><TextInput style={styles.hYTQihax}></TextInput><Text style={styles.rtcNuWmd}>{"Phone number"}</Text><TextInput style={styles.bEMMamWm}></TextInput><Text style={styles.acySsifz}>{"Email"}</Text><Pressable><View style={styles.LCkRwiLy}><Text style={styles.tqSrudWq}>{"Back"}</Text></View></Pressable></ImageBackground></ScrollView>
     </SafeAreaView>;
 };
 
@@ -27,9 +28,9 @@ const styles = StyleSheet.create({
     width: 145,
     height: 18,
     lineHeight: 14,
-    fontSize: 28,
+    fontSize: 29,
     borderRadius: 0,
-    color: "#ffffff",
+    color: "#f7f2f2",
     fontWeight: "700",
     position: "absolute",
     top: 119,
@@ -98,6 +99,29 @@ const styles = StyleSheet.create({
     position: "absolute",
     top: 382,
     left: 60
+  },
+  LCkRwiLy: {
+    height: 30,
+    width: 80,
+    backgroundColor: "#F3FBFA",
+    borderRadius: 17,
+    color: "#777777",
+    position: "absolute",
+    top: 544,
+    left: 111,
+    opacity: 0.84
+  },
+  tqSrudWq: {
+    width: 37,
+    height: 18,
+    lineHeight: 14,
+    fontSize: 16,
+    borderRadius: 0,
+    position: "absolute",
+    top: 6,
+    left: 22,
+    fontWeight: "700",
+    opacity: 0.57
   }
 });
 export default Untitled2;

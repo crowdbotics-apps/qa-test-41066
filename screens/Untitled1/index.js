@@ -14,16 +14,16 @@ const Untitled1 = () => {
     }}>
         <ImageBackground style={styles.tSijTtLy} source={require("./logo of qa.png")} resizeMode="cover">
           <ImageBackground style={styles.clKiUQON} source={require("./QA_PIC.jpg")} resizeMode="cover"></ImageBackground>
-          <Pressable onPress={() => {}}>
-            <View style={styles.XXImutqw}>
+          
+            <Pressable><View style={styles.XXImutqw}>
               <Pressable>
                 <Text style={styles.hNuYJHok}>{"Contact Us"}</Text>
               </Pressable>
-            </View>
-          </Pressable>
+            </View></Pressable>
+          
           <Pressable>
             <View style={styles.YrbzOzAo}>
-              <Text style={styles.bTLIKFIR}>{"About Us"}</Text>
+              <Pressable><Text style={styles.bTLIKFIR}>{"About Us"}</Text></Pressable>
             </View>
           </Pressable>
           <Pressable>
