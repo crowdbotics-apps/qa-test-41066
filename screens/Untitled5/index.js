@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
     width: 249,
     height: 26,
     lineHeight: 14,
-    fontSize: 22,
+    fontSize: 23,
     borderRadius: 0,
     fontWeight: "700",
     position: "absolute",
