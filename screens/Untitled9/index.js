@@ -11,7 +11,7 @@ const Untitled9 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><ImageBackground style={styles.ZMCCTcEg} source={require("./pngtree-colorful-watercolor-splash-company-profile-image_730901.jpg")} resizeMode="cover"><Text style={styles.sPeBoPXX}>{"Update Profile"}</Text><TextInput style={styles.YieRqpnT}></TextInput><TextInput style={styles.zgZDbMRP}></TextInput><TextInput style={styles.ZDuItrMm}></TextInput><TextInput style={styles.KUhCNUMe}></TextInput><TextInput style={styles.MNrOHJzf}></TextInput><TextInput style={styles.tdLuNdCJ}></TextInput><TextInput style={styles.JGhMSusU}></TextInput></ImageBackground></ScrollView>
+    }}><ImageBackground style={styles.ZMCCTcEg} source={require("./pngtree-colorful-watercolor-splash-company-profile-image_730901.jpg")} resizeMode="cover"><Text style={styles.sPeBoPXX}>{"Update Profile"}</Text><TextInput style={styles.YieRqpnT}></TextInput><TextInput style={styles.zgZDbMRP}></TextInput><TextInput style={styles.ZDuItrMm}></TextInput><TextInput style={styles.KUhCNUMe}></TextInput><TextInput style={styles.MNrOHJzf}></TextInput><TextInput style={styles.tdLuNdCJ}></TextInput><TextInput style={styles.JGhMSusU}></TextInput><TextInput style={styles.ZXtLNNuI}></TextInput></ImageBackground></ScrollView>
     </SafeAreaView>;
 };
 
@@ -71,8 +71,8 @@ const styles = StyleSheet.create({
     width: 150,
     height: 30,
     position: "absolute",
-    top: 290,
-    left: 71
+    top: 289,
+    left: 70
   },
   MNrOHJzf: {
     backgroundColor: "#b4a744",
@@ -80,8 +80,8 @@ const styles = StyleSheet.create({
     width: 150,
     height: 30,
     position: "absolute",
-    top: 340,
-    left: 71
+    top: 339,
+    left: 69
   },
   tdLuNdCJ: {
     backgroundColor: "#b4a744",
@@ -89,8 +89,8 @@ const styles = StyleSheet.create({
     width: 150,
     height: 30,
     position: "absolute",
-    top: 395,
-    left: 72
+    top: 396,
+    left: 69
   },
   JGhMSusU: {
     backgroundColor: "#b4a744",
@@ -99,7 +99,16 @@ const styles = StyleSheet.create({
     height: 30,
     position: "absolute",
     top: 446,
-    left: 73
+    left: 69
+  },
+  ZXtLNNuI: {
+    backgroundColor: "#b4a744",
+    borderColor: "#cccccc",
+    width: 150,
+    height: 30,
+    position: "absolute",
+    top: 495,
+    left: 69
   }
 });
 export default Untitled9;
