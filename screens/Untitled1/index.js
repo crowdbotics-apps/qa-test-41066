@@ -1,3 +1,4 @@
+import { useNavigation } from "@react-navigation/native";
 import { Pressable } from "react-native";
 import { Text } from "react-native";
 import { ImageBackground } from "react-native";
@@ -5,13 +6,16 @@ import React from "react";
 import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
 const Untitled1 = () => {
+  const navigation = useNavigation();
   return <SafeAreaView style={styles.safeArea}>
         <ScrollView contentContainerStyle={{
       backgroundColor: '#f0f0f1',
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><ImageBackground style={styles.tSijTtLy} source={require("./logo of qa.png")} resizeMode="cover"><ImageBackground style={styles.clKiUQON} source={require("./QA_PIC.jpg")} resizeMode="cover"></ImageBackground><View style={styles.XXImutqw}><Pressable><Text style={styles.hNuYJHok}>{"Contact Us"}</Text></Pressable></View><Pressable><View style={styles.YrbzOzAo}><Text style={styles.bTLIKFIR}>{"About Us"}</Text></View></Pressable><Pressable><View style={styles.lFgTUvNB}><Text style={styles.lDFIxoMH}>{"Terms and Conditions"}</Text></View></Pressable><Pressable><View style={styles.OrDyGryD}><Text style={styles.UsAwfPBD}>{"Privacy Policy"}</Text></View></Pressable></ImageBackground></ScrollView>
+    }}><ImageBackground style={styles.tSijTtLy} source={require("./logo of qa.png")} resizeMode="cover"><ImageBackground style={styles.clKiUQON} source={require("./QA_PIC.jpg")} resizeMode="cover"></ImageBackground><Pressable onPress={() => {
+          navigation.navigate("Untitled2");
+        }}><View style={styles.XXImutqw}><Pressable><Text style={styles.hNuYJHok}>{"Contact Us"}</Text></Pressable></View></Pressable><Pressable><View style={styles.YrbzOzAo}><Text style={styles.bTLIKFIR}>{"About Us"}</Text></View></Pressable><Pressable><View style={styles.lFgTUvNB}><Text style={styles.lDFIxoMH}>{"Terms and Conditions"}</Text></View></Pressable><Pressable><View style={styles.OrDyGryD}><Text style={styles.UsAwfPBD}>{"Privacy Policy"}</Text></View></Pressable></ImageBackground></ScrollView>
     </SafeAreaView>;
 };
 
@@ -71,14 +75,14 @@ const styles = StyleSheet.create({
     left: 98
   },
   hNuYJHok: {
-    width: 100,
-    height: 50,
+    width: 72,
+    height: 15,
     lineHeight: 14,
     fontSize: 14,
     borderRadius: 0,
     position: "absolute",
-    top: 8,
-    left: 5,
+    top: 5,
+    left: 6,
     fontWeight: "700",
     color: "#ffffff"
   },
