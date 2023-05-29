@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     width: 238,
     height: 28,
     lineHeight: 14,
-    fontSize: 36,
+    fontSize: 37,
     borderRadius: 0,
     position: "absolute",
     top: 54,
