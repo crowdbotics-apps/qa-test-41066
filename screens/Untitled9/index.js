@@ -11,7 +11,7 @@ const Untitled9 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><ImageBackground style={styles.ZMCCTcEg} source={require("./pngtree-colorful-watercolor-splash-company-profile-image_730901.jpg")} resizeMode="cover"><Text style={styles.sPeBoPXX}>{"Update Profile"}</Text><TextInput style={styles.YieRqpnT}></TextInput><TextInput style={styles.zgZDbMRP}></TextInput><TextInput style={styles.ZDuItrMm}></TextInput><TextInput style={styles.KUhCNUMe}></TextInput><TextInput style={styles.MNrOHJzf}></TextInput><TextInput style={styles.tdLuNdCJ}></TextInput><TextInput style={styles.JGhMSusU}></TextInput><TextInput style={styles.ZXtLNNuI}></TextInput><TextInput style={styles.kvrRZQWI}></TextInput><View style={styles.YvRHRSQP}><Text style={styles.bMvArZlf}>{"Back"}</Text></View><Text style={styles.XOaZFRbV}>{"Last Name"}</Text><Text style={styles.DKsMeWfL}>{"Email"}</Text><Text style={styles.CzdPojna}>{"Date of birth"}</Text><Text style={styles.dgAZGnVh}>{"Address"}</Text><Text style={styles.SfQdopbO}>{"City"}</Text><Text style={styles.mPHwOFeB}>{"Zip Code"}</Text></ImageBackground></ScrollView>
+    }}><ImageBackground style={styles.ZMCCTcEg} source={require("./pngtree-colorful-watercolor-splash-company-profile-image_730901.jpg")} resizeMode="cover"><Text style={styles.sPeBoPXX}>{"Update Profile"}</Text><TextInput style={styles.YieRqpnT}></TextInput><TextInput style={styles.zgZDbMRP}></TextInput><TextInput style={styles.ZDuItrMm}></TextInput><TextInput style={styles.KUhCNUMe}></TextInput><TextInput style={styles.MNrOHJzf}></TextInput><TextInput style={styles.tdLuNdCJ}></TextInput><TextInput style={styles.JGhMSusU}></TextInput><TextInput style={styles.ZXtLNNuI}></TextInput><TextInput style={styles.kvrRZQWI}></TextInput><View style={styles.YvRHRSQP}><Text style={styles.bMvArZlf}>{"Back"}</Text></View><Text style={styles.XOaZFRbV}>{"Last Name"}</Text><Text style={styles.DKsMeWfL}>{"Email"}</Text><Text style={styles.CzdPojna}>{"Date of birth"}</Text><Text style={styles.dgAZGnVh}>{"Address"}</Text><Text style={styles.SfQdopbO}>{"City"}</Text><Text style={styles.mPHwOFeB}>{"Zip Code"}</Text><Text style={styles.GdDtwvvy}>{"Country"}</Text></ImageBackground></ScrollView>
     <Text style={styles.XIbyyPRv}>{"First Name"}</Text><Text style={styles.snvMiqBv}>{"State"}</Text></SafeAreaView>;
 };
 
@@ -219,6 +219,16 @@ const styles = StyleSheet.create({
     position: "absolute",
     top: 471,
     left: 73
+  },
+  GdDtwvvy: {
+    width: 52,
+    height: 17,
+    lineHeight: 14,
+    fontSize: 18,
+    borderRadius: 0,
+    position: "absolute",
+    top: 521,
+    left: 70
   }
 });
 export default Untitled9;
