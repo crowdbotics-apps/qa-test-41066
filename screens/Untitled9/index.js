@@ -1,3 +1,5 @@
+import { TextInput } from "react-native";
+import { Text } from "react-native";
 import { ImageBackground } from "react-native";
 import React from "react";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
@@ -9,7 +11,7 @@ const Untitled9 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><ImageBackground style={styles.ZMCCTcEg} source={require("./pngtree-colorful-watercolor-splash-company-profile-image_730901.jpg")} resizeMode="cover"></ImageBackground></ScrollView>
+    }}><ImageBackground style={styles.ZMCCTcEg} source={require("./pngtree-colorful-watercolor-splash-company-profile-image_730901.jpg")} resizeMode="cover"><Text style={styles.sPeBoPXX}>{"Update Profile"}</Text><TextInput style={styles.YieRqpnT}></TextInput><TextInput style={styles.zgZDbMRP}></TextInput><TextInput style={styles.ZDuItrMm}></TextInput><TextInput style={styles.KUhCNUMe}></TextInput><TextInput style={styles.MNrOHJzf}></TextInput><TextInput style={styles.tdLuNdCJ}></TextInput><TextInput style={styles.JGhMSusU}></TextInput></ImageBackground></ScrollView>
     </SafeAreaView>;
 };
 
@@ -23,6 +25,81 @@ const styles = StyleSheet.create({
     position: "absolute",
     top: 0,
     left: 1
+  },
+  sPeBoPXX: {
+    width: 216,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 31,
+    borderRadius: 0,
+    fontWeight: "700",
+    position: "absolute",
+    top: 44,
+    left: 66,
+    color: "#b4a744"
+  },
+  YieRqpnT: {
+    backgroundColor: "#b4a744",
+    borderColor: "#cccccc",
+    width: 150,
+    height: 30,
+    position: "absolute",
+    top: 120,
+    left: 69
+  },
+  zgZDbMRP: {
+    backgroundColor: "#b4a744",
+    borderColor: "#cccccc",
+    width: 150,
+    height: 30,
+    position: "absolute",
+    top: 181,
+    left: 70
+  },
+  ZDuItrMm: {
+    backgroundColor: "#b4a744",
+    borderColor: "#cccccc",
+    width: 150,
+    height: 30,
+    position: "absolute",
+    top: 239,
+    left: 70
+  },
+  KUhCNUMe: {
+    backgroundColor: "#b4a744",
+    borderColor: "#cccccc",
+    width: 150,
+    height: 30,
+    position: "absolute",
+    top: 290,
+    left: 71
+  },
+  MNrOHJzf: {
+    backgroundColor: "#b4a744",
+    borderColor: "#cccccc",
+    width: 150,
+    height: 30,
+    position: "absolute",
+    top: 340,
+    left: 71
+  },
+  tdLuNdCJ: {
+    backgroundColor: "#b4a744",
+    borderColor: "#cccccc",
+    width: 150,
+    height: 30,
+    position: "absolute",
+    top: 395,
+    left: 72
+  },
+  JGhMSusU: {
+    backgroundColor: "#b4a744",
+    borderColor: "#cccccc",
+    width: 150,
+    height: 30,
+    position: "absolute",
+    top: 446,
+    left: 73
   }
 });
 export default Untitled9;
